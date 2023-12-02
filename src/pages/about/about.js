@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import './about.css';
 import EntranceBtn from '../../components/entranceBtn/entrance-button';
 
@@ -23,9 +23,9 @@ function About() {
           </article>
           <div className='slide-show'>
             <div className='about-img-container'>
-              <img className='about-img' src="./images/myself.jpeg" alt="my image" />
-              <img className='about-img' src="./images/myself2.JPG" alt="my second image" />
-              <img className='about-img' src="./images/cyca.jpeg" alt="cyca image" />
+              <img className='about-img' src="./images/myself.jpeg" alt="myself" />
+              <img className='about-img' src="./images/myself2.JPG" alt="myself 2" />
+              <img className='about-img' src="./images/cyca.jpeg" alt="cyca" />
             </div>
           </div>
         </div>

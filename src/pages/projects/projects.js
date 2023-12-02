@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './projects.css'
 import { Link } from 'react-router-dom';
 
@@ -77,7 +77,7 @@ function Projects() {
                     <img id='stack' src={stack} alt="stack logo" />
                   ))}
                 </div>
-          <img className="project-image" src={project.image} alt="Project image" />
+          <img className="project-image" src={project.image} alt="Project" />
           {project.deploy ? <Link to={project.deploy}>Website</Link> : <p></p>}
           <h2>{project.name}</h2>
             <div className='project-details'>
