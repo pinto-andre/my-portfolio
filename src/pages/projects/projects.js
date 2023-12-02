@@ -3,7 +3,7 @@ import './projects.css'
 import { Link } from 'react-router-dom';
 
 //Components
-import EntranceBtn from '../../../src/components/entranceBtn/entrance-button';
+import EntranceBtn from '../../components/entranceBtn/entrance-button';
 
 function Projects() {
 

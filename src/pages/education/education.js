@@ -4,7 +4,7 @@ import './education.css'
 
 
 //Components
-import EntranceBtn from '../../../src/components/entranceBtn/entrance-button';
+import EntranceBtn from '../../components/entranceBtn/entrance-button';
 
 function Education() {
   const [eduModalIsOpen, setEduModalIsOpen] = useState(false);

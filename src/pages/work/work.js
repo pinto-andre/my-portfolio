@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import './work.css'
 //Components
-import EntranceBtn from '../../../src/components/entranceBtn/entrance-button';
+import EntranceBtn from '../../components/entranceBtn/entrance-button';
 
 function Work() {
   useEffect(() => {

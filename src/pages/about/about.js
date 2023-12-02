@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './about.css';
-import EntranceBtn from '../../../src/components/entranceBtn/entrance-button';
+import EntranceBtn from '../../components/entranceBtn/entrance-button';
 
 function About() {
   const [activeCategory, setActiveCategory] = useState("");
