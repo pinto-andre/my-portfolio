@@ -1,0 +1,17 @@
+.entranceBtn {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 10px;
+    left: -35px;
+    color: #2e3f38;
+}
+
+img {
+    width: 35px;
+}
+
+button p {
+    color: #2e3f38;
+    font-weight: bold;
+}

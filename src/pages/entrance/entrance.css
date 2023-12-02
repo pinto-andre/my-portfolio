@@ -1,0 +1,36 @@
+/* entrance.css */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .entrance-div {
+    text-align: center;
+  }
+  
+  .my-name {
+    width: 100%;
+    height: auto;
+    max-width: 1250px;
+  }
+  
+  #slogan {
+    font-size: 1.5rem;
+    color: #2e3f3881;
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  

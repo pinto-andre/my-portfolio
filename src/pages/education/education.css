@@ -1,0 +1,122 @@
+/* Your existing CSS styles */
+
+.education-article {
+    margin-top: 30px;
+  }
+  
+  .education-article p {
+    text-align: start;
+    padding: 10px;
+  }
+  
+  .education-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .education-buttons {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+  }
+  
+  .education-btn img {
+    width: 100px;
+  }
+  
+  .education-btn p {
+    color: #f6fff8;
+    font-size: 25px;
+  }
+  
+  .education-btn {
+    width: 200px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .modal {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+  }
+  
+  .modal--open {
+    opacity: 1;
+  }
+  
+  .modal-div {
+    background-color: #CCE3DE;
+    border: solid 2px #6B9080;
+    border-radius: 10px;
+    padding: 2.5%;
+    width: 75%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+  }
+
+  .eduCert-titles {
+    font-size: 3.5rem;
+  }
+
+  .eduCert-articles {
+    width: 90%;
+  }
+
+  .eduCert-articles p {
+    text-wrap: wrap;
+  }
+
+  .eduCert-articles li {
+    list-style-type: disc;
+    margin-left: 25px;
+  }
+
+  .certificate-layout {
+    width: 24.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .certificate-layout img {
+    width: 200px;
+    height: auto;
+    transition: transform 1s ease-in-out;
+  }
+
+  .certificate-layout p {
+    text-align: center;
+  }
+  
+  .certificate-layout:hover img {
+    transform: scale(2); /* You can adjust the scale factor as needed */
+  }
+  
+  /* Center the image */
+  .certificate-layout img.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .certificate-layout:hover p {
+    display: none;
+  }
