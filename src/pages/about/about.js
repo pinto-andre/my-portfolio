@@ -33,42 +33,42 @@ function About() {
         <h1>Tech Stack</h1>
         <div className="tech-stack">
           <button
-            className="tech-buttons"
+            className="tech-buttons allBtn"
             onClick={() => showContent("languages")}
             data-category="languages"
           >
             Languages
           </button>
           <button
-            className="tech-buttons"
+            className="tech-buttons allBtn"
             onClick={() => showContent("frameworks")}
             data-category="frameworks"
           >
             Frameworks
           </button>
           <button
-            className="tech-buttons"
+            className="tech-buttons allBtn"
             onClick={() => showContent("libraries")}
             data-category="libraries"
           >
             Libraries
           </button>
           <button
-            className="tech-buttons"
+            className="tech-buttons allBtn"
             onClick={() => showContent("databases")}
             data-category="databases"
           >
             Databases & Services
           </button>
           <button
-            className="tech-buttons"
+            className="tech-buttons allBtn"
             onClick={() => showContent("tools")}
             data-category="tools"
           >
             Tools
           </button>
           <button
-            className="tech-buttons"
+            className="tech-buttons allBtn"
             onClick={() => showContent("inProgress")}
             data-category="inProgress"
           >

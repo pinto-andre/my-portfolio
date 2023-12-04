@@ -40,11 +40,11 @@ function Education() {
 
       <section className='education-section'>
         <div className='education-buttons'>
-          <button onClick={openEduModal} className='education-btn'>
+          <button onClick={openEduModal} className='education-btn allBtn'>
             <img src="./images/hat.png" alt="education hat" />
             <p>Education</p>
           </button>
-          <button onClick={openCertModal} className='education-btn'>
+          <button onClick={openCertModal} className='education-btn allBtn'>
             <img src="./images/certificate.png" alt="certificates symbol" />
             <p>Certificates</p>
           </button>
@@ -55,7 +55,7 @@ function Education() {
         contentLabel="Education Modal"
         className={`modal ${eduModalIsOpen ? 'modal--open' : ''}`}
       >
-        <button onClick={closeEduModal}>
+        <button className=' allBtn' onClick={closeEduModal}>
             <img src="./images/X.png" alt="Modal closer" />
         </button>
         <br />
@@ -108,7 +108,7 @@ function Education() {
         contentLabel="Certificates Modal"
         className={`modal ${certModalIsOpen ? 'modal--open' : ''}`}
       >
-        <button onClick={closeCertModal}>
+        <button className=' allBtn' onClick={closeCertModal}>
             <img src="./images/X.png" alt="Modal closer" />
         </button>
         <br />
