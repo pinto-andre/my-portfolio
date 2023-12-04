@@ -5,13 +5,61 @@
     top: 10px;
     left: -35px;
     color: #2e3f38;
-}
-
-img {
+  }
+  
+  img {
     width: 35px;
-}
-
-button p {
+  }
+  
+  button p {
     color: #2e3f38;
     font-weight: bold;
-}
+  }
+  
+  .connectTextContainer {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2e3f38;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .connectText {
+    margin: 0;
+    width: 1.5vw
+  }
+  
+  #socialsContainer:hover .connectText {
+    display: none;
+  }
+  
+  #socialsContainer:hover #socials {
+    display: flex;
+  }
+  
+  #socials {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2e3f38;
+    z-index: 100;
+  }
+  
+  #socials a {
+    margin: 0 8px; /* Adjust spacing between social icons */
+  }
+  
+  #socialsImg {
+    width: 2.5vw;
+    color: #2e3f38;
+  }

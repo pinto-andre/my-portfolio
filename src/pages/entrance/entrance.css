@@ -3,12 +3,18 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 100vh;
   }
   
   .entrance-div {
     text-align: center;
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   .my-name {

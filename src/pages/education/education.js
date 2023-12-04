@@ -61,8 +61,6 @@ function Education() {
         <br />
         <div className='modal-div'>
           <h2 className='eduCert-titles'>Education</h2>
-          <br />
-          <br />
           <article className='eduCert-articles'>
             <h3>Masters in forest and natural resources engineering @ Instituto Superior de Agronomia</h3>
             <p>September, 2017 until September, 2020</p>
@@ -116,8 +114,6 @@ function Education() {
         <br />
         <div className='modal-div'>
           <h2 className='eduCert-titles'>Certificates</h2>
-          <br />
-          <br />
           <article className='eduCert-articles'>
             <div className='certificate-layout'>
               <img src="./images/Ironhack-Certificate.png" alt="Ironhack certificate" />

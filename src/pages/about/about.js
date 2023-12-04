@@ -12,7 +12,6 @@ function About() {
   
   return (
     <div className='mainDiv'>
-      <EntranceBtn />
       <h1>About</h1>
       <section className='mainSec'>
         <div className='about-div'>
@@ -23,9 +22,9 @@ function About() {
           </article>
           <div className='slide-show'>
             <div className='about-img-container'>
-              <img className='about-img' src="./images/myself.jpeg" alt="myself" />
+              <img className='about-img' src="./images/myself3.jpeg" alt="myself" />
               <img className='about-img' src="./images/myself2.JPG" alt="myself 2" />
-              <img className='about-img' src="./images/cyca.jpeg" alt="cyca" />
+              <img className='about-img' src="./images/myself.png" alt="cyca" />
             </div>
           </div>
         </div>
@@ -111,6 +110,7 @@ function About() {
 
         </div>
       </section>
+      <EntranceBtn />
     </div>
   );
 }
