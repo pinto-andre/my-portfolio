@@ -12,7 +12,7 @@ function EntranceBtn() {
   return (
     <div className='mainDiv'>
         <button className='entranceBtn' onClick={returnHome}>
-            <img src="./images/home.png" alt="Home Button" />
+            <img id='home-img' src="./images/home.png" alt="Home Button" />
             <p>Home</p>
         </button>
         <div id='socialsContainer' className='connectTextContainer'>

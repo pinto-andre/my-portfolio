@@ -15,8 +15,10 @@ function Navbar() {
     return () => {
       barsElement.removeEventListener("click", handleBarClick);
     };
-  }, []); // Empty dependency array means this effect runs once when the component mounts
+  }, []); 
 
+
+  
   return (
     <div>
       {/* HamBurger Icon */}
@@ -28,16 +30,16 @@ function Navbar() {
       <nav id="nav" className={isActive ? 'visible' : ''}>
         <ol>
           <li className="shape-circle circle-one">
-            <a href="/education">Education</a>
+            <a className='navbar-links' href="/education">Education</a>
           </li>
           <li className="shape-circle circle-two">
-            <a href="/projects">Projects</a>
+            <a className='navbar-links' href="/projects">Projects</a>
           </li>
           <li className="shape-circle circle-three">
-            <a href="/work">Work</a>
+            <a className='navbar-links' href="/work">Work</a>
           </li>
           <li className="shape-circle circle-five">
-            <a href="/about">About</a>
+            <a className='navbar-links' href="/about">About</a>
           </li>
         </ol>
       </nav>

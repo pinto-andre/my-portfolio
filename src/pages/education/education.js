@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import Modal from 'react-modal';
 import './education.css'
 
@@ -26,6 +26,11 @@ function Education() {
     setCertModalIsOpen(false)
   }
 
+  useEffect(() => {
+    Modal.setAppElement('#root'); // Assuming '#root' is the root element of your application
+  }, []);
+
+
   return (
     <div className='mainDiv'>
       <EntranceBtn />
@@ -37,7 +42,6 @@ function Education() {
       <br />
       <br />
       <hr />
-
       <section className='education-section'>
         <div className='education-buttons'>
           <button onClick={openEduModal} className='education-btn allBtn'>
@@ -49,15 +53,17 @@ function Education() {
             <p>Certificates</p>
           </button>
         </div>
+
         <Modal
         isOpen={eduModalIsOpen}
         onRequestClose={closeEduModal}
         contentLabel="Education Modal"
         className={`modal ${eduModalIsOpen ? 'modal--open' : ''}`}
+        shouldCloseOnOverlayClick={true}
       >
-        <button className=' allBtn' onClick={closeEduModal}>
-            <img src="./images/X.png" alt="Modal closer" />
-        </button>
+         <button className=' allBtn' onClick={closeEduModal}>
+            <img className="modal-closer" src="./images/X.png" alt="Modal closer" />
+        </button> 
         <br />
         <div className='modal-div'>
           <h2 className='eduCert-titles'>Education</h2>
@@ -107,9 +113,10 @@ function Education() {
         onRequestClose={closeCertModal}
         contentLabel="Certificates Modal"
         className={`modal ${certModalIsOpen ? 'modal--open' : ''}`}
+        shouldCloseOnOverlayClick={true}
       >
         <button className=' allBtn' onClick={closeCertModal}>
-            <img src="./images/X.png" alt="Modal closer" />
+            <img className="modal-closer" src="./images/X.png" alt="Modal closer" />
         </button>
         <br />
         <div className='modal-div'>

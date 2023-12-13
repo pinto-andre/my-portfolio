@@ -78,8 +78,7 @@ function Projects() {
                   ))}
                 </div>
           <img className="project-image" src={project.image} alt="Project" />
-          {project.deploy ? <Link to={project.deploy}>Website</Link> : <p></p>}
-          <h2>{project.name}</h2>
+          {project.deploy ? <Link id='deploy' to={project.deploy}><h2>{project.name}</h2></Link> : <h2>{project.name}</h2>}
             <div className='project-details'>
               <p><strong>Description:</strong> {project.description}</p>
               <div id='method-stack'>

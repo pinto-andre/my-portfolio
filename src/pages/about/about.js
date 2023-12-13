@@ -6,13 +6,13 @@ function About() {
   const [activeCategory, setActiveCategory] = useState("");
 
   function showContent(category) {
-    // Update the active category in the state
     setActiveCategory(category);
   }
   
   return (
     <div className='mainDiv'>
-      <h1>About</h1>
+      <h1 className="about-titles">About</h1>
+      <section id="about-scroller" className="scrollable-container">
       <section className='mainSec'>
         <div className='about-div'>
           <article className='about-article'>
@@ -30,7 +30,7 @@ function About() {
         </div>
       </section>
       <section>
-        <h1>Tech Stack</h1>
+        <h1 className="about-titles">Tech Stack</h1>
         <div className="tech-stack">
           <button
             className="tech-buttons allBtn"
@@ -109,6 +109,7 @@ function About() {
           <img src="./images/logos/python.png" alt="python logo" />
 
         </div>
+      </section>
       </section>
       <EntranceBtn />
     </div>

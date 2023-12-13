@@ -1,5 +1,38 @@
+#about-scroller {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+  }
+  
+  /* Small height screens */
+  @media (max-height: 480px) {
+    #about-scroller {
+      height: 45vh;
+      /* Additional styles for small height screens */
+    }
+  }
+  
+  /* Medium height screens */
+  @media (min-height: 481px) and (max-height: 720px) {
+    #about-scroller {
+      height: 50vh;
+      /* Additional styles for medium height screens */
+    }
+  }
+  
+  /* Large height screens */
+  @media (min-height: 721px) and (max-height: 1024px) {
+    #about-scroller {
+      height: 75vh;
+      /* Additional styles for large height screens */
+    }
+  }
+  
+  
+
 .mainSec {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -64,6 +97,9 @@
     flex-wrap: wrap;
 }
 
+.about-titles {
+    margin-bottom: 15px;
+}
 .tech-stack div {
     display: none;
   }
